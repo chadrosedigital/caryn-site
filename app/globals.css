@@ -214,12 +214,23 @@ p {
 }
 
 .hero-image {
-  min-height: 260px;
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1280 / 1073;
+  object-fit: cover;
   margin-bottom: 26px;
   border-radius: 6px;
-  background:
-    linear-gradient(180deg, transparent 35%, rgba(32, 32, 29, 0.12)),
-    url("/caryn-greeff-hero.png") center / cover;
+}
+
+.about-portrait {
+  display: block;
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  margin-top: 30px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
 }
 
 .card-kicker {

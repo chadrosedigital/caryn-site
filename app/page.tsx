@@ -62,7 +62,7 @@ export default function Home() {
           </div>
 
           <div className="hero-card" aria-label="Caryn Greeff brand focus">
-            <div className="hero-image" role="img" aria-label="Warm coaching studio with notebook, natural light, and calm professional atmosphere" />
+            <img className="hero-image" src="/caryn-portrait.jpg" alt="Caryn Greeff wearing turquoise" width={1280} height={1073} fetchPriority="high" />
             <p className="card-kicker">Trusted facilitator, speaker, and guide</p>
             <h2>Where corporate confidence meets human connection.</h2>
             <div className="focus-list">
@@ -78,6 +78,7 @@ export default function Home() {
         <div>
           <p className="eyebrow">About Caryn</p>
           <h2>A grounded guide for meaningful transformation.</h2>
+          <img className="about-portrait" src="/caryn-smiling.png" alt="Caryn Greeff smiling in a relaxed setting" width={425} height={380} loading="lazy" />
         </div>
         <p>
           Caryn brings together the precision of communication coaching, the
